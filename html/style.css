@@ -2885,9 +2885,9 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
     border-bottom: none;
 }
 
-#page-title.page-title-dark h1 { color: rgba(255,255,255,0.9) !important; }
+#page-title.page-title-dark h1 { color: #fff !important; }
 
-#page-title.page-title-dark span { color: rgba(255,255,255,0.7); }
+#page-title.page-title-dark span { color: #fff; }
 
 #page-title.page-title-dark .breadcrumb > .active { color: rgba(255,255,255,0.6); }
 
@@ -10265,7 +10265,7 @@ label.error { display: none !important; }
 .heading-block h3 + span,
 .heading-block h4 + span { font-size: 18px; }
 
-.heading-block ~ p:not(.lead) { font-size: 15px; }
+.heading-block ~ p:not(.lead) { font-size: 14px; }
 
 .heading-block:after {
     content: '';
