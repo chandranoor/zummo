@@ -3146,6 +3146,7 @@ body:not(.device-touch) #portfolio {
 display: block;
 /* height: 207px; */
 border-radius: 1000px;
+max-width: 345px;
 }
 
 body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .portfolio-image img {
