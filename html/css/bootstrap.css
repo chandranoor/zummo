@@ -1444,10 +1444,12 @@ th {
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
-  padding: 8px;
-  line-height: 1.42857143;
-  vertical-align: top;
-  border-top: 1px solid #dddddd;
+  padding: 12px;
+line-height: 1.42857143;
+vertical-align: top;
+border-top: 1px solid #D8D8D8;
+/* border-radius: 4px; */
+background-color: #EEE;
 }
 .table > thead > tr > th {
   vertical-align: bottom;

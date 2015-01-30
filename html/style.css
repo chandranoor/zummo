@@ -1236,6 +1236,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
     float: none;
     max-width: none;
     border-top: 1px solid #F5F5F5;
+    border-bottom: 1px solid #F5F5F5;
 }
 
 #primary-menu.style-2 > div > ul { float: left; }
@@ -1720,9 +1721,9 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 
 #header, #header-wrap, #logo img, #primary-menu:not(.style-2), #primary-menu:not(.style-2) > ul {
 height: 50px;
--webkit-transition: height .4s ease, opacity .3s ease;
+/*-webkit-transition: height .4s ease, opacity .3s ease;
 -o-transition: height .4s ease, opacity .3s ease;
-transition: height .4s ease, opacity .3s ease;
+transition: height .4s ease, opacity .3s ease;*/
 margin-top: 10px;
 }
 
@@ -1858,8 +1859,8 @@ body.top-search-open #top-cart { opacity: 0; }
 
 #header.sticky-header #primary-menu.sub-title > ul > li,
 #header.sticky-header #primary-menu.sub-title.style-2 > div > ul > li {
-    background: none !important;
-    margin-left: 2px;
+    /*background: none !important;*/
+    margin-left: 1px;
 }
 
 #header.sticky-header #primary-menu.sub-title > ul > li:first-child,
@@ -11659,3 +11660,112 @@ margin-top: 15px;
 .productlistcolor.vending {
 background-color: #C50636;
 }
+.col_four_fifth.spec.col_las {
+width: 75%;
+margin-top: 40px;
+}
+.voltaje {
+color: #f28e30;
+background: url(./images/icons/h_carac_voltaje.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+.motor{
+color: #f28e30;
+background: url(./images/icons/h_carac_motor.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+.consumo{
+color: #f28e30;
+background: url(./images/icons/h_carac_consumo.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+.automatico{
+color: #f28e30;
+background: url(./images/icons/h_carac_automatico.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+.standby{
+color: #f28e30;
+background: url(./images/icons/h_carac_standby.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+.peso{
+color: #f28e30;
+background: url(./images/icons/h_carac_peso.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+.alimentador{
+color: #f28e30;
+background: url(./images/icons/h_carac_alimentador.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+.standby{
+color: #f28e30;
+background: url(./images/icons/h_carac_standby.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+.frutasminutos{
+color: #f28e30;
+background: url(./images/icons/h_carac_frutasminutos.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+.capacidadCubeta{
+color: #f28e30;
+background: url(./images/icons/h_carac_capacidadCubeta.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+.tamanyofruta{
+color: #f28e30;
+background: url(./images/icons/h_carac_tamanyofruta.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+.medidas{
+color: #f28e30;
+background: url(./images/icons/h_carac_frutasminutos.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+.seguridad{
+color: #f28e30;
+background: url(./images/icons/h_carac_frutasminutos.gif) no-repeat 10px 7px;
+width: 270px;
+padding-left: 40px!important;
+font-weight: 900;
+text-transform: uppercase;
+}
+

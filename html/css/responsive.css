@@ -81,7 +81,7 @@
 	.portfolio-item .portfolio-image a,
 	.portfolio-item .portfolio-image img {
 	    width: 226px;
-	    height: 170px;
+	    height: auto;
 	}
 
 	/* Portfolio - No Margin
@@ -136,13 +136,13 @@
 	/* Portfolio - Items - 3 Columns
 	-----------------------------------------------------------------*/
 
-	.portfolio-3 .portfolio-item { width: 303px; }
+	.portfolio-3 .portfolio-item { width: 295px; }
 
 	.portfolio-3 .portfolio-item .portfolio-image,
 	.portfolio-3 .portfolio-item .portfolio-image a,
 	.portfolio-3 .portfolio-item .portfolio-image img {
 	    width: 303px;
-	    height: 227px;
+	    height: auto;
 	}
 
 	/* Portfolio - Items - 3 Columns - No Margin
@@ -980,7 +980,7 @@
 	#portfolio:not(.portfolio-1) .portfolio-item .portfolio-image a,
 	#portfolio:not(.portfolio-1) .portfolio-item .portfolio-image img {
 	    width: 232px;
-	    height: 175px;
+	    height: auto;
 	}
 
 	/* Portfolio - No Margin
@@ -1704,8 +1704,8 @@
 	#portfolio:not(.portfolio-1) .portfolio-item .portfolio-image,
 	#portfolio:not(.portfolio-1) .portfolio-item .portfolio-image a,
 	#portfolio:not(.portfolio-1) .portfolio-item .portfolio-image img {
-	    width: 217px;
-	    height: 162px;
+	    width: 100%;
+		height: auto;
 	}
 
 	/* Portfolio - Items - 5 & 6 Columns - No Margin
@@ -1911,7 +1911,7 @@
 	#portfolio:not(.portfolio-1) .portfolio-item .portfolio-image a,
 	#portfolio:not(.portfolio-1) .portfolio-item .portfolio-image img {
 	    width: 280px;
-	    height: 211px;
+	    height: auto;
 	}
 
 	.post-grid:not(.post-masonry) .entry-image iframe { height: 157px; }
