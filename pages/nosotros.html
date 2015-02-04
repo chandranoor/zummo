@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block content %}
+
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+    $("#navbar1, #navbar2, #navbar3, #navbar4, #navbar5").removeClass("current");
+    $("#navbar4").addClass("current");
+    });
+</script>
+
+        <!-- Page Title
+        ============================================= -->
+        <section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('{% static 'images/bg.jpg'%}'); padding: 40px 0;" data-stellar-background-ratio="0.3">  
+
+            <div class="container clearfix">
+                <h1>Zummo <strong>Panamá</strong></h1>
+                <span>El Origen del mejor jugo de naranja</span>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li>Zummo Panamá</li>
+ 
+                </ol>
+            </div>
+
+        </section>
+        <!--<section id="page-title" class="page-title-pattern">
+
+            <div class="container clearfix">
+                <h1>Familia de <strong>Productos</strong></h1>
+                <span>Una solución para cada tipo de Negocio</span>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li>Productos</li>
+ 
+                </ol>
+            </div>
+
+        </section>--><!-- #page-title end -->
+
+        <!-- Content
+        ============================================= -->
+        <section id="content">
+
+            <div class="content-wrap">
+
+                <div class="container clearfix">
+                    <div class="heading-block center">
+        
+                            <h3>
+                                <div class="text-rotater" data-separator="|" data-rotate="bounceIn" data-speed="2500">
+                                <span class="zummofont2">Nuestra Empresa</span>
+                                </div>                          
+                            </h3>
+                            <span><strong>Conozca nuestra empresa</strong></span>
+                    </div>
+                    <div class="col_one_third">
+                        <img src="{% static "images/nosotros1.jpg" %}">
+
+                        
+                    </div>
+                    <div class="col_two_third  col_last">
+                        <h5>Nuestra Historia</h5>
+                        <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus.</p>
+                        <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.</p>
+                    </div>
+                    <div class="line bottommargin"></div>
+                    <div class="col_two_third  ">
+                        <h5>Investigación calidad y compromiso</h5>
+                        <p>Apostamos fuertemente por la calidad de todos y cada uno de los productos y servicios que ofrecemos. Desde la investigación y el diseño, la materia prima, el control de calidad, la tecnología empleada y la rapidez del servicio hasta la atención post-venta.</p>
+                        <h5>Mucho más que zumo de naranja</h5>
+                        <p>El afán de investigación y mejora ha conseguido que los exprimidores Zummo permitan al usuario disfrutar de una amplia variedad de cítricos: <strong>naranjas, limones, mandarinas, limas, granadas y pomelos,</strong> por la posibilidad de exprimir diferentes tipos de calibre.</p>
+                    </div>
+                    <div class="col_one_third col_last">
+                        <img src="{% static "images/nosotros2.jpg"%}">
+                        
+                    </div>
+
+                    <div class="line bottommargin"></div>
+                    <div class="promo nopadding bottommargin">
+                        <h3>Póngase en contacto <span>+507 226 70 57</span> o escríbanos <span>info@zummo.com.pa</span></h3>
+                        <span>Para más información de nuestros productos, puede contactarnos o descargar nuestro <strong>catálogo de productos</strong></span>
+                        <a href="#" class="button button-xlarge button-rounded">Ver Catálogo</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <script type="text/javascript" src="{{ STATIC_URL }}/js/functions.js"></script> 
+        </section><!-- #content end -->
+            
+     
+
+
+
+{% endblock content%}
