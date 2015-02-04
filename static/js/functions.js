@@ -9,7 +9,7 @@ $.fn.doOnce = function( func ) {
     return this;
 }
 
-$.extend($.infinitescroll.prototype,{
+/*$.extend($.infinitescroll.prototype,{
     _setup_portfolioinfiniteitemsloader: function infscr_setup_portfolioinfiniteitemsloader() {
         var opts = this.options,
             instance = this;
@@ -45,7 +45,7 @@ $.extend($.infinitescroll.prototype,{
         // user provided callback when done
         opts.errorCallback.call($(opts.contentSelector)[0],'done');
     }
-});
+});*/
 
 var SEMICOLON = SEMICOLON || {};
 
