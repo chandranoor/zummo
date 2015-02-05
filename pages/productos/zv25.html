@@ -1,0 +1,112 @@
+product_name: ZV25
+product_slogan: 
+voltaje: 230V-50Hz, 220V-60Hz, 110V-60Hz
+motor: Monofásico 0,33CV
+consumo: 706W
+auto: 
+stand_by:  
+peso:  	225Kg
+capacidad_feeder: 25Kg
+frutas_por_minuto: 10
+capacidad_cubeta: 
+medidas: Alto x Ancho x Profundo 1845mm. x 680mm. x 700mm. 
+
+{% extends "producto.html" %}
+
+
+       {% block imagen_producto %}
+       <img src="{% static 'images/productos/zv25.jpg'%}">
+       {% endblock %}
+
+
+
+
+{% block parrafo1 %}
+
+<strong>Exprimidor modelo Z14</strong>
+, montado sobre bandeja con guías para facilitar su manipulación y extracción.
+<br>
+<br>
+<strong>EQUIPO DE FRÍO COMPACTO Y FÁCILMENTE EXTRAIBLE</strong>
+para facilitar la sustitución o reparación del mismo.
+<br>
+<br>
+<strong>VISUALIZACIÓN DEL PROCESO COMPLETO DE EXPRIMIDO</strong>
+a través de una ventana iluminada mediante leds.
+<br>
+<br>
+<strong>COMPARTIMENTO PARA RECOGIDA DEL ZUMO</strong>
+con bloqueo de la ventana automático tras la extración del vaso.
+<br>
+<br>
+<strong>DISPLAY INFORMATIVO</strong>
+sobre el estado de la máquina:
+<br>
+• Sistema alfanumérico e iconos luminosos.
+<br>
+• Selección 8 idiomas.
+<br>
+• Contador de servicios.
+<br>
+• Programación del precio del servicio.
+<br>
+• Contador de naranjas.
+<br>
+• Información en todo momento del crédito acumulado.
+<br>
+• Información del tipo de avería.
+<br>
+<br>
+<strong>CONTROL ELECTRÓNICO DE LA</strong>
+
+{% endblock parrafo1 %}
+
+{% block parrafo2 %}
+
+
+<strong>
+TEMPERATURA</strong>
+. Grupo de frío que mantiene el interior refrigerado, incluidas cortezas, evitando la proliferación de insectos.
+<br>
+<br>
+<strong>PROGRAMA AUTOMÁTICO DE AUTO-LIMPIEZA</strong>
+en función del número de servicios realizados o tiempo transcurrido. La máquina es autónoma con 2 recipientes de agua para el auto lavado. 
+<strong>Conexión para toma de agua directa de red potabilizada.</strong>
+</p>
+<p>
+<br>
+<strong>FÁCIL LIMPIEZA</strong>
+. Piezas totalmente desmontables.
+<br>
+<br>
+<strong>
+CERRADURA RIELDA PROGRAMABLE.
+<br>
+<br>
+TOPES TRASEROS
+</strong>
+que aseguran la correcta ventilación del equipo de frío.
+<strong>
+<br>
+<br>
+PANEL RETROILUMINADO FRONTAL MEDIANTE LEDS.
+<br>
+<br>
+ZONA PARA SISTEMAS DE PAGO SEPARADA DE LA ZONA DE PROGRAMACIÓN EN COMPARTIMENTOS ESTANCOS.
+<br>
+
+
+
+{% endblock parrafo2 %}
+
+{% block fruit_size %}
+ Kit Ø 55-75mm.<br>
+Opcional: Copas grandes Kit Ø 70-90mm.
+                                      
+{% endblock %}
+
+{% block proteccion %}
+
+ Fusible General. Protección térmica en motor máquina exprimidora. Sensor para detección de mal posicionamiento de la bandeja exprimidora. Sensor de puerta. Detiene todos los mecanismos cuando se abre la puerta.
+
+{% endblock proteccion %}

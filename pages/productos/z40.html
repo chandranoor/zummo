@@ -1,0 +1,107 @@
+product_name: Horeca Z40
+product_slogan: 
+voltaje: 230V-50Hz, 220V-60Hz, 110V-60Hz, 240V-50Hz, 120V-50Hz
+motor: Monofásico 0,5CV
+consumo:  290W. / Consumo STAND BY 2.4W.
+auto:
+stand_by:  
+peso: 81,5Kg.
+capacidad_feeder: 20Kg.
+frutas_por_minuto:  40
+capacidad_cubeta: 15 litros
+medidas:  Alto x Ancho x Profundo 980mm. x 598mm. x 545mm. 
+
+{% extends "producto.html" %}
+
+
+       {% block imagen_producto %}
+       <img src="{% static 'images/productos/z40.jpg'%}">
+       {% endblock %}
+
+
+
+
+{% block parrafo1 %}
+
+<strong>SISTEMA DE EXPRIMIDO</strong>
+único en el mundo. La fruta se corta en dos mitades y se exprime sin entrar en contacto con la corteza evitando sus aceites y acidez añadida. Zumo de calidad con un sabor 100% natural.
+<br>
+<strong>
+<br>
+EXPRIMIDOR AUTOMÁTICO DE CÍTRICOS
+</strong>
+Naranjas, limones, mandarinas, pomelos, granadas.
+<br>
+<br>
+<strong>TAMAÑO DE LA FRUTA 53-100mm.</strong>
+<br>
+Kit copas medianas Ø53-76 mm.
+<br>
+Opcional:
+<br>
+- Kit copas grandes Ø64-88 mm.
+<br>
+- Kit copas extra grandes Ø77-100 mm.
+<br>
+<br>
+<strong>LIMPIEZA RÁPIDA Y FÁCIL</strong>
+Sólo hacen falta 6/7 minutos para desmontar, limpiar, secar y volver a montar.
+<br>
+<br>
+<strong>CUERPO</strong>
+del exprimidor construido en 
+
+
+
+
+{% endblock parrafo1 %}
+
+{% block parrafo2 %}
+
+<strong>ACERO INOXIDABLE</strong>
+.
+<br>
+<br>
+Alimentación automática. Cesta superior giratoria con capacidad para
+<strong>20Kg. de fruta</strong>
+. Su llenado proporciona atractivo visual a la máquina.
+<br>
+<strong>
+<br>
+PROGRAMADOR Y CONTADOR DIGITAL
+</strong>
+de última generación. Suministra información sobre el estado de funcionamiento de la máquina (vía panel digital).
+<br>
+<strong>
+<br>
+FILTRO CON LIMPIEZA AUTOMÁTICA
+</strong>
+<br>
+<strong>
+<br>
+BANDEJA Y REJILLA RECOGE-GOTEO
+</strong>
+<br>
+<br>
+Cubetas recoge-cortezas de acero inoxidable 15 l.
+<br>
+<strong>
+<br>
+SISTEMA STAND BY
+</strong>
+(ahorro energético).
+
+{% endblock parrafo2 %}
+
+{% block fruit_size %}
+ 	Kit Ø 53-100mm, Kit copas medianas Ø53-76 mm.
+Opcional:<br>
+- Kit copas grandes Ø64-88 mm.<br>
+- Kit copas extra grandes Ø77-100 mm.
+{% endblock %}
+
+{% block proteccion %}
+
+        	Triple sensor automático de seguridad y protección térmica mediante bloqueo del motor. Detención de la máquina e indicación en el display del posicionamiento erróneo de las piezas.
+
+{% endblock proteccion %}

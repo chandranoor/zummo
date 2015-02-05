@@ -1,0 +1,215 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+    $("#navbar1, #navbar2, #navbar3, #navbar4, #navbar5").removeClass("current");
+    $("#navbar3").addClass("current");
+    });
+</script>
+
+             <!-- Page Title
+        ============================================= -->
+        <section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('{% static 'images/bg.jpg'%}'); padding: 40px 0;" data-stellar-background-ratio="0.3">   
+
+
+            <div class="container clearfix">
+                <h1>Productos <strong>Zummo</strong></h1>
+                <span>{{ product_name }}</span>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li>Zummo Panamá</li>
+ 
+                </ol>
+            </div>
+
+        </section>
+        <!--<section id="page-title" class="page-title-pattern">
+
+            <div class="container clearfix">
+                <h1>Familia de <strong>Productos</strong></h1>
+                <span>Una solución para cada tipo de Negocio</span>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li>Productos</li>
+ 
+                </ol>
+            </div>
+
+        </section>--><!-- #page-title end -->
+
+        <!-- Content
+        ============================================= -->
+        <section id="content">
+
+            <div class="content-wrap">
+
+                <div class="container clearfix">
+                    <div class="heading-block center">
+        
+                            <h3>
+                                <div class="text-rotater" data-separator="|" data-rotate="bounceIn" data-speed="2500">
+                                <span class="zummofont2">{{ product_name }}</span>
+                                </div>                          
+                            </h3>
+                            <span><strong>{{ product_slogan }}</strong></span>
+                    </div>
+                    <div class="col_one_third">
+                        {% block imagen_producto %}
+                        
+                        {% endblock %}
+                        
+                    </div>
+                    <div class="col_one_third ">
+                        <div class="heading-block">
+                            <h5>
+                                <div class="text-rotater" data-separator="|" data-rotate="bounceIn" data-speed="2500">
+                                <span class="">Descripción del Producto</span>
+                                </div>                          
+                            </h5>
+                        </div>
+                        <p style="margin-top: -40px;">
+                        	{% block parrafo1 %}
+                            <strong>SISTEMA DE EXPRIMIDO</strong> único en el mundo. La fruta se corta en dos mitades y se exprime sin entrar en contacto con la corteza, evitando sus aceites y acidez añadida. Zumo de calidad con un sabor 100% natural.<br>
+                            <strong><br>
+                            EXPRIMIDOR AUTOMÁTICO</strong> de naranjas.<br>
+                            <strong><br>
+                            TAMAÑO DE LA FRUTA</strong> medio y gran calibre / 55 a 90mm.<br>
+                            <br>
+                            Kit copa mediana Ø 55-70mm. / Ø 63-75mm. Opcional: kit copa grande de Ø 65-80mm. / Ø 75-90mm.<br>
+                            <strong><br>
+                            LIMPIEZA RÁPIDA Y FÁCIL </strong>. Sólo hacen falta 6/7 minutos para desmontar, limpiar, secar y volver a montar.<br>
+                            <strong><br>
+                            CUERPO</strong> del explorador en <strong>ACERO INOXIDABLE</strong>.<br>
+                            {% endblock parrafo1 %}
+                        </p>
+                    </div>
+                    <div class="col_one_third  col_last">
+                        <h5></h5>
+                        <p style="margin-top: 40px;"><br>
+                        {% block parrafo2 %}
+                            <strong>RAMPA</strong> que proporciona una <strong>AUTONOMÍA</strong> de 6/7 frutas.<br>
+                            <strong>
+                            PROGRAMADOR Y CONTADOR DIGITAL</strong> de última generación. Suministra información sobre el estado de funcionamiento de la máquina (vía panel digital).<br>
+                            <strong><br>
+                            FILTRO</strong> de gran capacidad.<br>
+                            <strong><br>
+                            BANDEJA Y REJILLA RECOGE-GOTEO<br>
+                            </strong><br>
+                            CUBETA RECOGE-CORTEZAS de gran capacidad / 9l.<br>
+                            <br>
+                            Sistema STAND BY (ahorro energético)
+                              {% endblock parrafo2 %}
+                        </p>
+                    </div>
+                    <div class="line bottommargin"></div>
+                    <div class="col_one_fifth">
+                        <div class="heading-block">
+                            <h5>
+                                <div class="text-rotater" data-separator="|" data-rotate="bounceIn" data-speed="2500">
+                                <span class="">Especificaciones Técnicas</span>
+                                </div>                          
+                            </h5>
+                            <span>Tabla con especificaciones y características técnicas de nuestro producto</span>
+                        </div>
+                        
+                    </div>
+                    <div class="col_four_fifth spec col_las">
+                        <table style="margin-top: -40px;" class="table table-striped">
+                            <tbody>
+                                <tr>
+                                    <td class="voltaje">
+                                        Voltaje</td>
+                                    <td>
+                                        {{ voltaje }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="motor">
+                                        Motor</td>
+                                    <td>
+                                        {{ motor }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="consumo">
+                                        Consumo</td>
+                                    <td>
+                                         {{ consumo }} </td>
+                                </tr>
+                                <tr>
+                                    <td class="automatico">
+                                        Automático</td>
+                                    <td>
+                                        {{ auto }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="standby">
+                                        Sistema STAND BY</td>
+                                    <td>
+                                        {{ stand_by }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="peso">
+                                        Peso</td>
+                                    <td>
+                                        {{ peso }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="alimentador">
+                                        Capacidad alimentador</td>
+                                    <td>
+                                        {{ capacidad_feeder }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="frutasminutos">
+                                        Frutas por minuto</td>
+                                    <td>
+                                        {{ frutas_por_minuto }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="capacidadCubeta">
+                                        Capacidad cubeta</td>
+                                    <td>
+                                        {{ capacidad_cubeta }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="tamanyofruta">
+                                        Tamaño fruta</td>
+                                    <td>
+                                        {% block fruit_size %}{% endblock %}</td>
+                                </tr>
+                                <tr>
+                                    <td class="medidas">
+                                        Medidas</td>
+                                    <td>
+                                        {{ medidas }}</td>
+                                </tr>
+                                <tr>
+                                    <td class="seguridad">
+                                        Protección</td>
+                                    <td>
+                                        {% block proteccion %}{% endblock proteccion %}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="line bottommargin"></div>
+                    <div class="promo nopadding bottommargin">
+                        <h3>Póngase en contacto <span>+507 226 70 57</span> o escríbanos <span>info@zummo.com.pa</span></h3>
+                        <span>Para más información de nuestros productos, puede contactarnos o descargar nuestro <strong>catálogo de productos</strong></span>
+                        <a href="#" class="button button-xlarge button-rounded">Ver Catálogo</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section><!-- #content end -->
+
+
+            <script type="text/javascript" src="{{ STATIC_URL }}/js/functions.js"></script> 
+        </section><!-- #content end -->
+
+
+        {% endblock content%}
