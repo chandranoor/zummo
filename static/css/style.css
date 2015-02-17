@@ -11769,4 +11769,26 @@ padding-left: 40px!important;
 font-weight: 900;
 text-transform: uppercase;
 }
+.circle {
+border-radius: 1000px;
+}
+i.icon-envelope.circle-icon {
+background:#FFA240;
+color: #fff;
+padding: 4px 8px 4px 9px;
+border-radius: 50px;
+font-size: 16px;
+/* line-height: 24px; */
+margin-right: 5px;
+}
+.circle-icon2 {
+background:#FFA240;
+color: #fff;
+padding: 4px 8px 4px 9px;
+border-radius: 50px;
+font-size: 16px;
+/* line-height: 24px; */
+margin-right: 5px;
+float: left;
+}
 

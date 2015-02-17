@@ -39,7 +39,7 @@
 
         <!-- Content
         ============================================= -->
-        <section id="content">
+     <section id="content">
 
             <div class="content-wrap">
 
@@ -54,8 +54,7 @@
                             <span><strong>Conozca nuestra empresa</strong></span>
                     </div>
                     <div class="col_one_third">
-                        <img src="{% static "images/nosotros1.jpg" %}">
-
+                        <img src="{% static 'images/nosotros1.jpg'%}">
                         
                     </div>
                     <div class="col_two_third  col_last">
@@ -71,8 +70,40 @@
                         <p>El afán de investigación y mejora ha conseguido que los exprimidores Zummo permitan al usuario disfrutar de una amplia variedad de cítricos: <strong>naranjas, limones, mandarinas, limas, granadas y pomelos,</strong> por la posibilidad de exprimir diferentes tipos de calibre.</p>
                     </div>
                     <div class="col_one_third col_last">
-                        <img src="{% static "images/nosotros2.jpg"%}">
+                        <img src="{% static 'images/nosotros2.jpg'%}">
                         
+                    </div>
+                    
+                    <div class="line bottommargin"></div>
+                    <div class="heading-block center">
+        
+                            <h3>
+                                <div class="text-rotater" data-separator="|" data-rotate="bounceIn" data-speed="2500">
+                                <span class="zummofont2">Nuestro Equipo</span>
+                                </div>                          
+                            </h3>
+                            <span><strong>Un equipo profesional y comprometido.</strong></span>
+                    </div>
+                    <div class="col_one_third  ">
+                        <img class="circle bottommargin" src="{% static 'images/equipo/partner.jpg'%}">
+                        <h5 class="nomargin">Beatriz González</h5>
+                        <h6 class="notopmargin orange">Presidenta</h6>
+                        <p class="nobottommargin">Sed ut perspiciatis unde omnis iste <strong>natus error sit voluptatem</strong> accusantium doloremque laudantium.</p>
+                        <p style="margin-top:10px;"><i class="icon-envelope circle-icon"></i><a style="font-weight:bold;" href="mailto:mail@zummo.com.pa"> mail@zummo.com.pa</a></p>
+                    </div>
+                    
+                    <div class="col_one_third  ">
+                        <img class="circle bottommargin" src="{% static 'images/equipo/partner.jpg'%}">
+                        <h5 class="nomargin">Iván González</h5>
+                        <h6 class="notopmargin orange">Secretario</h6>
+                        <p>Sed ut perspiciatis unde omnis iste <strong>natus error sit voluptatem</strong> accusantium doloremque laudantium.</p>
+                    </div>
+                    
+                    <div class="col_one_third col_last ">
+                        <img class="circle bottommargin" src="{% static 'images/equipo/partner.jpg'%}">
+                        <h5 class="nomargin">Gabriel González</h5>
+                        <h6 class="notopmargin orange">Tesorero</h6>
+                        <p>Sed ut perspiciatis unde omnis iste <strong>natus error sit voluptatem</strong> accusantium doloremque laudantium.</p>
                     </div>
 
                     <div class="line bottommargin"></div>
@@ -86,13 +117,9 @@
 
             </div>
 
+             <script type="text/javascript" src="{{ STATIC_URL }}/js/functions.js"></script> 
 
-
-
-
-            <script type="text/javascript" src="{{ STATIC_URL }}/js/functions.js"></script> 
         </section><!-- #content end -->
-            
      
 
 
