@@ -1378,7 +1378,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 
 #primary-menu.sub-title > ul > li,
 #primary-menu.sub-title.style-2 > div > ul > li {
-    background: url("images/icons/menu-divider.png") no-repeat right center;
+    background: url("../images/icons/menu-divider.png") no-repeat right center;
     margin-left: 1px;
 }
 
@@ -9637,7 +9637,7 @@ body:not(.device-touch) .rounded-skill {
 .owl-carousel.owl-loading {
     display:block;
     min-height: 100px;
-    background: url('images/preloader.gif') no-repeat center center
+    /*background: url('images/preloader.gif') no-repeat center center*/
 }
 
 .owl-carousel.owl-hidden { opacity:0 }
@@ -10804,7 +10804,7 @@ body:not(.device-touch) #gotoTop {
     display: block;
     width: 100%;
     height: 100%;
-    background: url("images/preloader.gif") center center no-repeat #FFF;
+    /*background: url("images/preloader.gif") center center no-repeat #FFF;*/
 }
 
 .preloader2 { background-color: transparent; }
