@@ -17,7 +17,7 @@
 
     ============================================= -->
 
-	<link rel="icon" type="image/png" href="% static 'images/favicon.png' %" />
+	<link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}" />
 
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 
@@ -105,8 +105,9 @@
 
                         <ul>
 
-                            <li><a href="http://www.zummo.es">Zummo</a>
-
+                            <li><a target="_blank" href="{% static 'images/catalogo_corporativo_zummo.pdf' %}">Ver Nuestro Catálogo</a>
+                            </li>
+                            <li><a target="_blank" href="http://zummo.es">Zummo.es</a>
                             </li>
 
                         </ul>
@@ -131,7 +132,7 @@
 
                         <ul>
 
-                            <li><a href="http://t.signaledue.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XX45v0vllW8qCmnl3M2bmdW643SkR56dJP5dYtLhF02?si=4908176986603520&pi=E1459DF4-E89D-4B00-B5AA-FCB5B2F55587&t=https%3A%2F%2Fwww%2Efacebook%2Ecom%2Fzummolatincorp%3Ffref%3Dnf" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/zummolatincorp" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
 
                             <li><a href="#" class="si-twitter"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
 
@@ -250,20 +251,14 @@
 
 
 
+
                         <!-- Top Search
-
                         ============================================= -->
-
                         <div id="top-search">
-
                             <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-
                             <form action="search.html" method="get">
-
                                 <input type="text" name="q" class="form-control" value="" placeholder="Introduzca su parámetro de búsqueda...">
-
                             </form>
-
                         </div><!-- #top-search end -->
 
 
@@ -320,8 +315,8 @@
                             <img src="{% static "images/logoFooter.png" %}" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
 
 
-
-                            <p>Cuando has probado el mejor jugo ya no te conformas con cualquier otro, nuestro paladar se hace exigente.</p>
+                            <p><strong>Distribuidores para Panamá de la marca de exprimidores Zummo.</strong><br>
+                            Cuando has probado el mejor jugo ya no te conformas con cualquier otro, nuestro paladar se hace exigente.</p>
 
 
 
@@ -349,7 +344,7 @@
 
                                         <li><a href="{% url '/contact.html' %}">Contacto</a></li>
 
-                                        <li><a href="http://zummo.es">Zummo.es</a></li>
+                                        <li><a target="_blank" href="http://zummo.es">Zummo.es</a></li>
 
                                     </ul>
 
@@ -491,7 +486,7 @@
 
                                 <div class="col-md-6 clearfix bottommargin-sm">
 
-                                    <a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
+                                    <a target="_blank" href="https://www.facebook.com/zummolatincorp" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
 
                                         <i class="icon-facebook"></i>
 
@@ -499,7 +494,7 @@
 
                                     </a>
 
-                                    <a href="#"><small style="display: block; margin-top: 3px;"><strong>Me Gusta</strong><br>en Facebook</small></a>
+                                    <a target="_blank" href="https://www.facebook.com/zummolatincorp"><small style="display: block; margin-top: 3px;"><strong>Me Gusta</strong><br>en Facebook</small></a>
 
                                 </div>
 
@@ -563,7 +558,7 @@
 
                         <div class="fright clearfix">
 
-                            <a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
+                            <a href="target="_blank href="https://www.facebook.com/zummolatincorp" class="social-icon si-small si-borderless nobottommargin si-facebook">
 
                                 <i class="icon-facebook"></i>
 
