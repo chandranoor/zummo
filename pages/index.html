@@ -59,7 +59,7 @@
 
                     </div>-->
 
-                    <div class="swiper-slide" style="background-image: url('{% static "images/slider/swiper/3.jpg" %}'); background-position: center top;">
+                    <div class="swiper-slide" style="background-image: url('{% static 'images/slider/swiper/3.jpg' %}'); background-position: center top;">
 
 
 
@@ -270,7 +270,7 @@
 							<article class="portfolio-item">
 								<div class="portfolio-image">
 									<a href="portfolio-single.html">
-										<img src="{{ STATIC_URL }}/images/horeca.jpg" alt="Open Imagination">
+										<img src="{% static '/images/horeca.jpg' %}" alt="Open Imagination">
 									</a>
 									<div class="portfolio-overlay horeca">
 										<a href="productos.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
@@ -283,7 +283,7 @@
 								<article class="portfolio-item">
 									<div class="portfolio-image">
 										<a href="portfolio-single.html">
-											<img src="{{ STATIC_URL }}/images/vending.jpg" alt="Open Imagination">
+											<img src="{% static '/images/vending.jpg' %}" alt="Open Imagination">
 										</a>
 										<div class="portfolio-overlay vending">
 											<a href="productos.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
@@ -325,7 +325,7 @@
 					<div class="col_one_third nobottommargin">
                         <div class="feature-box media-box">
                             <div class="fbox-media">
-                                <img src="{{ STATIC_URL }}/images/evs.jpg" alt="EVS">
+                                <img src="{% static '/images/evs.jpg' %}" alt="EVS">
                             </div>
                             <div class="fbox-desc">
                                 <h3>Efficient Vertical System.</span><span class="subtitle">Mayor Renidmiento</span></h3>
@@ -336,7 +336,7 @@
 					<div class="col_one_third nobottommargin">
                         <div class="feature-box media-box">
                             <div class="fbox-media">
-                                <img src="{{ STATIC_URL }}/images/openview.jpg" alt="Open View">
+                                <img src="{% static '/images/openview.jpg' %}" alt="Open View">
                             </div>
                             <div class="fbox-desc">
                                 <h3>Open View<span class="subtitle">Siempre Visible.</span></h3>
@@ -347,7 +347,7 @@
 					<div class="col_one_third  col_last">
                         <div class="feature-box media-box">
                             <div class="fbox-media">
-                                <img src="{{ STATIC_URL }}/images/multic.jpg" alt="MultiCritic">
+                                <img src="{% static '/images/multic.jpg' %}" alt="MultiCritic">
                             </div>
                             <div class="fbox-desc">
                                 <h3>MultiCitric.<span class="subtitle">Funcional distintas frutas.</span></h3>
@@ -358,7 +358,7 @@
                 </div>
 
             </div>
-            <script type="text/javascript" src="{{ STATIC_URL }}/js/functions.js"></script> 
+            <script type="text/javascript" src="{% static '/js/functions.js' %}"></script> 
         </section><!-- #content end --><!-- #content end -->
 
 

@@ -176,9 +176,9 @@
 
                 <div id="logo">
 
-                    <a href="index.html" class="standard-logo" data-dark-logo="{% static "images/logo.jpg" %}"><img src="{% static "images/logo.png" %}" alt="Zumo Panamá"></a>
+                    <a href="index.html" class="standard-logo" data-dark-logo="{% static 'images/logo.png' %}"><img src="{% static 'images/logo.png' %}" alt="Zumo Panamá"></a>
 
-                    <a href="index.html" class="retina-logo" data-dark-logo="{% static "images/logo.jpg" %}" ><img src="{% static "images/logo.png" %}" alt="Zumo Panamá"></a>
+                    <a href="index.html" class="retina-logo" data-dark-logo="{% static 'images/logo.png' %}" ><img src="{% static 'images/logo.png' %}" alt="Zumo Panamá"></a>
 
                 </div><!-- #logo end -->
 
@@ -208,49 +208,24 @@
 
             <div id="header-wrap">
 
-
-
-                <!-- Primary Navigation
-
-                ============================================= -->
-
                 <nav id="primary-menu" class="style-2 sub-title">
-
-
 
                     <div class="container clearfix">
 
-
-
                         <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
-
                         <ul>
-
-                            <li  id="navbar1" class="current"><a href="{% url '/index.html' %}"><div>Inicio</div></a>
-
+                            <li  class="current"><a href="{% url '/index.html' %}"><div>Inicio</div></a>
                             </li>
-
-                            <li id="navbar2" ><a href="{% url '/sistema.html' %}"><div>Sistema de Exprimido</div></a>
-
+                            <li><a href="{% url '/sistema.html' %}"><div>Sistema de Exprimido</div></a>
                             </li>
-
-                            <li id="navbar3" ><a href="{% url '/productos.html' %}"><div>Productos</div></a>
-
+                            <li><a href="{% url '/productos.html' %}"><div>Productos</div></a>
                             </li>
-
-							<li id="navbar4" ><a href="{% url '/nosotros.html' %}"><div>Zummo Panamá</div></a>
-
+							<li><a href="{% url '/nosotros.html' %}"><div>Zummo Panamá</div></a>
                             </li>
-
-                            <li id="navbar5" ><a href="{% url '/contact.html' %}"><div>Contacto</div></a>
-
+                            <li><a href="{% url '/contact.html' %}"><div>Contacto</div></a>
                             </li>
-
                         </ul>
-
-
-
 
                         <!-- Top Search
                         ============================================= -->
@@ -261,11 +236,7 @@
                             </form>
                         </div><!-- #top-search end -->
 
-
-
                     </div>
-
-
 
                 </nav><!-- #primary-menu end -->
 
@@ -312,11 +283,11 @@
 
 
 
-                            <img src="{% static "images/logoFooter.png" %}" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
+                            <img src="{% static 'images/logoFooter.png' %}" alt="" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
 
 
                             <p><strong>Distribuidores para Panamá de la marca de exprimidores Zummo.</strong><br>
-                            Cuando has probado el mejor jugo ya no te conformas con cualquier otro, nuestro paladar se hace exigente.</p>
+                            <span style="font-style: italic;">"Cuando has probado el mejor jugo ya no te conformas con cualquier otro, nuestro paladar se hace exigente."</span></p>
 
 
 

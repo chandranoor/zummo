@@ -16,7 +16,7 @@
         <section id="google-map" class="gmap slider-parallax"></section>
 
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-        <script type="text/javascript" src="{% static "js/jquery.gmap.js" %}"></script>
+        <script type="text/javascript" src="{% static 'js/jquery.gmap.js' %}"></script>
 
 
 
@@ -33,7 +33,7 @@
                         address: "Calle 66 Este, San Francisco, Panamá",
                         html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Zummo <span>Panamá</span></h4><p class="nobottommargin">C</p></div>',
                         icon: {
-                            image: "{% static "images/icons/map-icon-red.png" %}",
+                            image: "{% static 'images/icons/map-icon-red.png' %}",
                             
                             iconsize: [32, 39],
                             iconanchor: [32,39]
@@ -175,7 +175,7 @@
 
             </div>
 
-            <script type="text/javascript" src="{{ STATIC_URL }}/js/functions.js"></script> 
+            <script type="text/javascript" src="{% static '/js/functions.js' %}"></script> 
         </section><!-- #content end -->
             
      
