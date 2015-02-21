@@ -56,5 +56,8 @@ target/
 # Cactus Build
 .build/
 
+# Cactus Build
+.deploy/
+
 # Cactus S3 config
 config.json
