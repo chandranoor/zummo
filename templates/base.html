@@ -35,8 +35,8 @@
     <!-- External JavaScripts
     ============================================= -->
 	<script type="text/javascript" src="{% static '/js/jquery.js' %}"></script>
-	
 	<script type="text/javascript" src="{% static '/js/plugins.js' %}"></script>
+
 	
 
     <!-- Document Title
@@ -197,15 +197,15 @@
                         <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
                         <ul>
-                            <li  class="current"><a href="{% url '/index.html' %}"><div>Inicio</div></a>
+                            <li class="current" id="navbar1"><a href="{% url '/index.html' %}"><div>Inicio</div></a>
                             </li>
-                            <li><a href="{% url '/sistema.html' %}"><div>Sistema de Exprimido</div></a>
+                            <li id="navbar2"><a href="{% url '/sistema.html' %}"><div>Sistema de Exprimido</div></a>
                             </li>
-                            <li><a href="{% url '/productos.html' %}"><div>Productos</div></a>
+                            <li id="navbar3"><a href="{% url '/productos.html' %}"><div>Productos</div></a>
                             </li>
-							<li><a href="{% url '/nosotros.html' %}"><div>Zummo Panamá</div></a>
+							<li id="navbar4"><a href="{% url '/nosotros.html' %}"><div>Zummo Panamá</div></a>
                             </li>
-                            <li><a href="{% url '/contact.html' %}"><div>Contacto</div></a>
+                            <li id="navbar5"><a href="{% url '/contact.html' %}"><div>Contacto</div></a>
                             </li>
                         </ul>
 
@@ -584,6 +584,7 @@
     ============================================= -->
 
     <script type="text/javascript" src="{% static '/js/functions.js' %}"></script>
+   
 
 
 
