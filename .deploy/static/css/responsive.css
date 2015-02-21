@@ -1707,6 +1707,9 @@
 	    width: 100%;
 		height: auto;
 	}
+	.portfolio-item .portfolio-image, .portfolio-item .portfolio-image a, .portfolio-item .portfolio-image img{
+	max-width: 345px;
+	}
 
 	/* Portfolio - Items - 5 & 6 Columns - No Margin
 	-----------------------------------------------------------------*/
@@ -1899,6 +1902,9 @@
 	#header.transparent-header.floating-header .container {
 	    width: 310px;
 	    padding: 0 15px;
+	}
+	.portfolio-item .portfolio-image, .portfolio-item .portfolio-image a, .portfolio-item .portfolio-image img{
+	max-width: 250px;
 	}
 
 	#portfolio-filter li { width: 50%; }

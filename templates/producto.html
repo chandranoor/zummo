@@ -18,8 +18,8 @@
                 <h1>Productos <strong>Zummo</strong></h1>
                 <span>{{ product_name }}</span>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="{% url '/index.html' %}">Inicio</a></li>
+                    <li><a href="{% url '/productos.html' %}">Productos</a></li>
                     <li>{{ product_name }}</li>
  
                 </ol>
