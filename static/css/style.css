@@ -11771,6 +11771,7 @@ text-transform: uppercase;
 }
 .circle {
 border-radius: 1000px;
+width: 60%;
 }
 i.icon-envelope.circle-icon {
 background:#FFA240;
