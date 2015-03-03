@@ -27,7 +27,7 @@ if (name == ''){
             "from_name": name,
             'to': [
               {
-                'email': 'gregesf@bluetideconsulting.com', //Destinatario del correo
+                'email': 'info@zummo.com.pa', //Destinatario del correo
                 'name': 'Contacto Zummo Latin Corp', //Nombre del Remitente
                 'type': 'to'
               }
