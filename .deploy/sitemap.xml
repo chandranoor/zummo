@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
     <url>
-        <loc>/about.html</loc>
+        <loc>/productos.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -11,12 +11,17 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/index.html</loc>
+        <loc>/search.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/nosotros.html</loc>
+        <loc>/productos/zv25.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/productos/z1.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -26,7 +31,7 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/z1.html</loc>
+        <loc>/productos/z40.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -41,22 +46,17 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/z40.html</loc>
+        <loc>/nosotros.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/zv25.html</loc>
+        <loc>/index.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos.html</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>/search.html</loc>
+        <loc>/about.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

@@ -36,6 +36,7 @@
     ============================================= -->
 	<script type="text/javascript" src="/static/js/jquery.js"></script>
 	<script type="text/javascript" src="/static/js/plugins.js"></script>
+    <script type="text/javascript" src="/static/js/contact.js"></script>
 
 	
 
@@ -44,6 +45,7 @@
     ============================================= -->
 
 <title>Búsqueda | Zummo Latin Corp</title> 
+<meta name="description" content="Zummo Panamá, sistemas de exprimido automático para restaurantes, hoteles, bares y eventos especiales.">
 
 
 
@@ -116,7 +118,7 @@
 
                             <li><a target="_blank" href="https://www.facebook.com/zummolatincorp" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
 
-                            <li><a href="#" class="si-twitter"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
+                           <!-- <li><a href="#" class="si-twitter"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>-->
 
                             <li><a href="tel:+91.11.85412542" class="si-call"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">+507 226 70 57</span></a></li>
 
@@ -411,9 +413,9 @@
 
                         <div class="widget subscribe-widget clearfix notopmargin">
 
-                            <h5><strong>Subscríbase</strong> a nuestro Newsletter para conocer de primera mano nuestras novedades y promociones</h5>
+                            <h5><strong>Subscríbase</strong> a nuestro página de facebook para conocer de primera mano nuestras novedades y promociones</h5>
 
-                            <div id="widget-subscribe-form-result" data-notify-type="success" data-notify-msg=""></div>
+                            <!--<div id="widget-subscribe-form-result" data-notify-type="success" data-notify-msg=""></div>
 
                             <form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin">
 
@@ -435,53 +437,23 @@
 
 							<p style="margin-top: -20px;">
 
-							<h5 style="font-size:11px;">*Usted pordrá dejar de recibir nuestras notificaciones, en el momento que lo desee y con <strong>solo un click.</strong></h5></p>
+							<h5 style="font-size:11px;">*Usted pordrá dejar de recibir nuestras notificaciones, en el momento que lo desee y con <strong>solo un click.</strong></h5></p>-->
 
-                            <script type="text/javascript">
 
-                                $("#widget-subscribe-form").validate({
-
-                                    submitHandler: function(form) {
-
-                                        $(form).find('.input-group-addon').find('.icon-email2').removeClass('icon-email2').addClass('icon-line-loader icon-spin');
-
-                                        $(form).ajaxSubmit({
-
-                                            target: '#widget-subscribe-form-result',
-
-                                            success: function() {
-
-                                                $(form).find('.input-group-addon').find('.icon-line-loader').removeClass('icon-line-loader icon-spin').addClass('icon-email2');
-
-                                                $('#widget-subscribe-form').find('.form-control').val('');
-
-                                                $('#widget-subscribe-form-result').attr('data-notify-msg', $('#widget-subscribe-form-result').html()).html('');
-
-                                                SEMICOLON.widget.notifications($('#widget-subscribe-form-result'));
-
-                                            }
-
-                                        });
-
-                                    }
-
-                                });
-
-                            </script>
 
                         </div>
 
 
 
-                        <div class="widget clearfix" style="margin-bottom: -20px;margin-top: 30px;">
+                        <div class="widget clearfix" style="margin-bottom: -20px;margin-top: 0px;">
 
 
 
-                            <div class="row">
+                            <div class="row" style="margin-left:0px">
 
 
 
-                                <div class="col-md-6 clearfix bottommargin-sm">
+                                <div class="col clearfix bottommargin-sm">
 
                                     <a target="_blank" href="https://www.facebook.com/zummolatincorp" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
 
@@ -491,11 +463,11 @@
 
                                     </a>
 
-                                    <a target="_blank" href="https://www.facebook.com/zummolatincorp"><small style="display: block; margin-top: 3px;"><strong>Me Gusta</strong><br>en Facebook</small></a>
+                                    <a target="_blank" href="https://www.facebook.com/zummolatincorp"><small style="display: block; margin-top: 3px;"><strong>Me Gusta</strong> en Facebook</small></a>
 
                                 </div>
 
-                                <div class="col-md-6 clearfix">
+                                <div class="col-md-6 clearfix hidden">
 
                                     <a href="#" class="social-icon si-dark si-colored si-twitter nobottommargin" style="margin-right: 10px;">
 
@@ -565,7 +537,7 @@
 
 
 
-                            <a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter">
+                            <a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter hidden">
 
                                 <i class="icon-twitter"></i>
 
@@ -575,7 +547,7 @@
 
 
 
-                            <a href="#" class="social-icon si-small si-borderless nobottommargin si-gplus">
+                            <a href="#" class="social-icon si-small si-borderless nobottommargin si-gplus hidden">
 
                                 <i class="icon-gplus"></i>
 
@@ -585,11 +557,18 @@
 
 
 
-                            <a href="#" class="social-icon si-small si-borderless nobottommargin si-linkedin">
+                            <a href="#" class="social-icon si-small si-borderless nobottommargin si-linkedin hidden">
 
                                 <i class="icon-linkedin"></i>
 
                                 <i class="icon-linkedin"></i>
+
+                            </a>
+                            <a href="mailto:info@zummo.com.pa" class="social-icon si-small si-borderless nobottommargin si-youtube">
+
+                                <i class="icon-mail"></i>
+
+                                <i class="icon-mail"></i>
 
                             </a>
 
