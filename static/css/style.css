@@ -7014,7 +7014,7 @@ body:not(.device-touch) .button.button-full strong {
 /* Feature Box - Icon Large
 -----------------------------------------------------------------*/
 
-.feature-box.fbox-large { padding: 0 0 0 115px; }
+.feature-box.fbox-large {padding: 0px 0 0px 135px; }
 
 .feature-box.fbox-large .fbox-icon {
     width: 96px;
@@ -7092,7 +7092,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-dark.fbox-outline .fbox-icon { border-color: #444; }
 
 .feature-box.fbox-dark .fbox-icon i,
-.feature-box.fbox-dark .fbox-icon img { background-color: #333; }
+.feature-box.fbox-dark .fbox-icon img { background-color: #F28D31; }
 
 
 /* Feature Box - Border
@@ -7197,22 +7197,22 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box.fbox-center {
     padding: 0;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .feature-box.fbox-center .fbox-icon {
     position: relative;
-    width: 96px;
-    height: 96px;
+    width: 130px;
+    height: 130px;
     margin: 0 auto 30px;
 }
 
 .feature-box.fbox-center .fbox-icon i {
-    font-size: 42px;
+    font-size: 55px;
     line-height: 96px;
 }
 
-.feature-box.fbox-center.fbox-outline .fbox-icon i { line-height: 88px; }
+.feature-box.fbox-center.fbox-outline .fbox-icon i { line-height: 120px; }
 
 .feature-box.fbox-center p {
     font-size: 14px;
@@ -7345,13 +7345,13 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box.fbox-bg.fbox-center {
     margin-top: 68px;
-    padding: 68px 30px 30px;
-    background-color: #FFF;
+    padding: 95px 15px 30px;
+    background-color: #EEE;
     border: 1px solid #E5E5E5;
     border-radius: 5px;
 }
 
-.feature-box.fbox-bg.fbox-center:first-child { margin-top: 48px; }
+.feature-box.fbox-bg.fbox-center:first-child { margin-top: 75px; }
 
 .feature-box.fbox-bg.fbox-center.fbox-large {
     margin-top: 84px;
@@ -7362,9 +7362,9 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box.fbox-bg.fbox-center .fbox-icon {
     position: absolute;
-    top: -48px;
-    left: 50%;
-    margin: 0 0 0 -48px;
+    top: -75px;
+    left: 44%;
+    margin: 10px 0 0 -48px;
 }
 
 .feature-box.fbox-bg.fbox-center.fbox-large .fbox-icon {
@@ -11791,5 +11791,14 @@ font-size: 16px;
 /* line-height: 24px; */
 margin-right: 5px;
 float: left;
+}
+.mt-100{
+margin-top:100px!important;
+}
+.mb-50{
+margin-bottom:50px!important;
+}
+.mt-40{
+margin-top:40px!important;
 }
 
