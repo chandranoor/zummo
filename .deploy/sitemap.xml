@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
     <url>
-        <loc>/about.html</loc>
+        <loc>/productos/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/contact.html</loc>
+        <loc>/contact/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/index.html</loc>
+        <loc>/search/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/nosotros.html</loc>
+        <loc>/productos/zv25/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/z06.html</loc>
+        <loc>/productos/z1/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/z1.html</loc>
+        <loc>/productos/z06/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/z14.html</loc>
+        <loc>/productos/z40/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/z14si.html</loc>
+        <loc>/productos/z14/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/z40.html</loc>
+        <loc>/productos/z14si/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/zv25.html</loc>
+        <loc>/nosotros/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos.html</loc>
+        <loc>/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/search.html</loc>
+        <loc>/about/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/sistema.html</loc>
+        <loc>/sistema/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
