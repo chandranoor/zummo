@@ -1,0 +1,83 @@
+product_name: Vending Z10
+product_slogan: 
+voltaje: 230V-50Hz., 220V-60Hz., 110V-60Hz.
+motor: Monofásico 0,33CV
+consumo: 1450W
+auto: 100-110 servicios
+stand_by:  
+peso:  	298,46Kg.
+capacidad_feeder: 45-50Kg.
+frutas_por_minuto: 10
+capacidad_cubeta: 
+medidas: Alto x Ancho x Profundo 1830mm. x 1000mm. x 680mm. 
+
+{% extends "producto.html" %}
+
+
+       {% block imagen_producto %}
+       <img src="{% static 'images/productos/z10.jpg'%}"alt="ZV10">
+       {% endblock %}
+
+
+
+
+{% block parrafo1 %}
+
+
+	<strong>EXPRIMIDOR MODELO Z06.</strong><b><br>
+	</b> <br>
+	<strong>VENTANA ILUMINADA.</strong>&nbsp;Permite al cliente visualizar el proceso completo de exprimido desde el momento que solicita el servicio.<br>
+	<br>
+	<strong>COMPARTIMENTO PARA RECOGIDA DEL ZUMO</strong>.<br>
+	<br>
+	<strong>DISPLAY INFORMATIVO</strong> sobre el estado de la máquina:<br>
+	• Contador de servicios.<br>
+	• Programación del precio del servicio.<br>
+	• Contador de naranjas.<br>
+	• Información en todo momento del crédito acumulado.<br>
+	<br>
+	<strong>CONTROL ELECTRÓNICO DE LA TEMPERATURA</strong>. Grupo de frío que mantiene el interior refrigerado, incluidas cortezas, evitando la proliferación de insectos.<br>
+	<br>
+	<strong>PROGRAMA AUTOMÁTICO DE AUTO-LIMPIEZA</strong> en función del número de servicios realizados o tiempo transcurrido. La máquina es autónoma con 2 recipientes de agua para el autolavado.&nbsp;<strong>Conexión para toma de agua directa de red potabilizada</strong>.</p>
+
+{% endblock parrafo1 %}
+
+{% block parrafo2 %}
+
+
+<strong>
+TEMPERATURA</strong>
+. Grupo de frío que mantiene el interior refrigerado, incluidas cortezas, evitando la proliferación de insectos.
+<br>
+<br>
+<strong>PROGRAMA AUTOMÁTICO DE AUTO-LIMPIEZA</strong>
+en función del número de servicios realizados o tiempo transcurrido. La máquina es autónoma con 2 recipientes de agua para el auto lavado. 
+<strong>Conexión para toma de agua directa de red potabilizada.</strong>
+</p>
+<p>
+<br>
+<strong>FÁCIL LIMPIEZA</strong>
+Piezas totalmente desmontables.
+<br>
+<br>
+<strong>
+ZONA PARA SISTEMAS DE PAGO <br>
+ZONA DE PROGRAMACIÓN.</strong>
+<br>
+
+
+
+{% endblock parrafo2 %}
+
+{% block fruit_size %}
+ Kit Ø 55-75mm.<br>
+Opcional: Copas grandes Kit Ø 70-90mm.
+                                      
+{% endblock %}
+
+{% block proteccion %}
+
+ Fusible General. Protección térmica en motor máquina exprimidora. Sensor para detección de mal posicionamiento de la bandeja exprimidora. Sensor de puerta. Detiene todos los mecanismos cuando se abre la puerta.
+
+{% endblock proteccion %}
+{% block title %}<title>Vending Z10 | Zummo Latin Corp</title> {% endblock %}

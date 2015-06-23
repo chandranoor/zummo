@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
     <url>
-        <loc>/productos/</loc>
+        <loc>http://zummo.com.pa/productos/z14/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/contact/</loc>
+        <loc>http://zummo.com.pa/productos/z14si/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/search/</loc>
+        <loc>http://zummo.com.pa/productos/zv25/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/zv25/</loc>
+        <loc>http://zummo.com.pa/productos/z40/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/z1/</loc>
+        <loc>http://zummo.com.pa/productos/z06/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/z06/</loc>
+        <loc>http://zummo.com.pa/productos/z1/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/z40/</loc>
+        <loc>http://zummo.com.pa/contact/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/z14/</loc>
+        <loc>http://zummo.com.pa/search/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/productos/z14si/</loc>
+        <loc>http://zummo.com.pa/productos/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/nosotros/</loc>
+        <loc>http://zummo.com.pa/sistema/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/</loc>
+        <loc>http://zummo.com.pa/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/about/</loc>
+        <loc>http://zummo.com.pa/about/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/sistema/</loc>
+        <loc>http://zummo.com.pa/nosotros/</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
